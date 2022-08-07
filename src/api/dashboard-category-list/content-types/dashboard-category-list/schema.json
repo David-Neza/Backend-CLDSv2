@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "dashboard_category_lists",
+  "info": {
+    "singularName": "dashboard-category-list",
+    "pluralName": "dashboard-category-lists",
+    "displayName": "DashboardCategoryList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text_1": {
+      "type": "string"
+    },
+    "text_2": {
+      "type": "string"
+    },
+    "route": {
+      "type": "string"
+    }
+  }
+}
